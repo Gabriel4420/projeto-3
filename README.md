@@ -31,7 +31,7 @@
 
 ## :dart: Sobre
 
-Projeto de verificação de clima através da api current weather, utllizando fetch para consumir a api e gerar um buscador por pais / cidade, para a verificação do clima da mesma.
+Projeto de verificação de clima através da api current weather, utllizando fetch para consumir a api e gerar um buscador por pais / cidade, para a verificação do clima da mesma. Feito na semana javascript da b7web, ministrada pelo professor Bonieky Lacerda.
 
 ## :white_check_mark: Pré requisitos
 
