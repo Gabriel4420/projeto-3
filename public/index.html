@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/3127/3127236.png" />
+    <link rel="stylesheet" href="../src/styles/style.css" />
+</head>
+
+<body>
+    <img src="https://image.flaticon.com/icons/png/512/3127/3127236.png" 
+    width=100
+    height=100
+    alt="logoApp">
+    <br/>
+    <h1>Clima</h1>
+
+
+
+    <form class="busca">
+        <input type="search" id="searchInput" />
+        <button>Buscar</button>
+    </form>
+
+    <div class="resultado">
+        <div class="titulo">--</div>
+
+        <div class="info">
+            <div class="temp">
+                <div class="tempTitulo">Temperatura</div>
+                <div class="tempInfo">-- <sup>ºC</sup></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                <p class="desc">desc</p>
+            </div>
+            <div class="vento">
+                <div class="ventoTitulo">Vento</div>
+                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="ventoArea">
+                    <div class="ventoPonto" style="transform:rotate(0deg)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+
+    <footer>Criado pela B7Web. Adaptado por Gabriel Rodrigues Perez</footer>
+
+    <script src="../src/scripts/script.js"></script>
+</body>
+
+</html>
